@@ -1,6 +1,23 @@
 {
   "name": "math-magician",
   "version": "0.1.0",
+  "description": "JavaScript calculator",
+  "main": "index.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdumani/math-magician.git"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "jasx"
+  ],
+  "author": "Giancarlo Dumani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdumani/math-magician/issues"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -15,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:style": "stylelint \"**/*.{css,scss}\" --fix",
+    "lint:es": "eslint . --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +53,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
