@@ -4,17 +4,19 @@
 
 .calc {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   max-width: 20rem;
   grid-auto-rows: 3rem;
 }
+
 .calc span {
   grid-column: 1/5;
   text-align: right;
-  background-color:dimgray;
+  background-color: dimgray;
   color: white;
   font-size: 2rem;
 }
+
 .double {
   grid-column: span 2;
 }
