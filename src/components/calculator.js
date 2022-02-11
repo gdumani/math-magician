@@ -18,8 +18,7 @@ export default class Calculator extends React.Component {
 
   render() {
     const { total, next, operation } = this.state;
-    const disp = total + operation + next;
-    console.log(disp);
+    const disp = `${total || ''}${operation || ''}${next || ''}`;
     return (
       <div className="calc">
         <span>{disp}</span>
