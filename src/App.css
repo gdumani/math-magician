@@ -5,7 +5,7 @@
 .calc {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  max-width: 20rem;
+  max-width: 30rem;
   grid-auto-rows: 3rem;
 }
 
@@ -14,7 +14,7 @@
   text-align: right;
   background-color: dimgray;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .double {
