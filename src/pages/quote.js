@@ -1,9 +1,10 @@
+import React from 'react';
 import CurrentQuote from '../components/currentQuote';
 
-const Quote = () => {
+const Quote = () => (
   <div className="quotes">
     <CurrentQuote />
-  </div>;
-};
+  </div>
+);
 
 export default Quote;

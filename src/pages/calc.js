@@ -1,10 +1,10 @@
 import React from 'react';
 import Calculator from '../components/calculator';
 
-const Calc = () => {
+const Calc = () => (
   <div className="calc">
     <p>Lets do some Math!</p>
     <Calculator />
-  </div>;
-};
+  </div>
+);
 export default Calc;
