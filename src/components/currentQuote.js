@@ -44,17 +44,24 @@ const Quotes = [
     author: 'Josiah Willard Gibbs, American scientist',
   },
 
+  {
+    phrase: 'Pure mathematics is, in its way, the poetry of logical ideas.',
+    author: 'Albert Einstein, German theoretical physicist',
+  },
+
 ];
 
-const CurrentQuote = () => (
-  <div>
-    <p className="phrase">
-      {Quotes[1].phrase}
-    </p>
-    <p className="author">
-      {Quotes[1].author}
-    </p>
-  </div>
-);
-
+const CurrentQuote = () => {
+  const i = Math.floor(Math.random() * Quotes.length);
+  return (
+    <div>
+      <p className="phrase">
+        {Quotes[i].phrase}
+      </p>
+      <p className="author">
+        {Quotes[i].author}
+      </p>
+    </div>
+  );
+};
 export default CurrentQuote;

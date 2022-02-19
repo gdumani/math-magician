@@ -4,7 +4,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import './App.css';
+import './style/App.css';
 import NavBar from './components/navbar';
 import Calc from './pages/calc';
 import Home from './pages/home';
