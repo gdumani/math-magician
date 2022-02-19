@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../style/navbar.css';
 
 const NavBar = () => (
-  <div>
+  <div className="nav">
     <h1>Math Magician</h1>
     <ul>
       <li>
