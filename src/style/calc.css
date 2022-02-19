@@ -1,5 +1,5 @@
 .cal-page {
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
 
 h3 {
   background-color: wheat;
-  padding: 2rem ;
+  padding: 2rem;
   text-align: center;
   margin: 5%;
 }

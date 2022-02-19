@@ -1,16 +1,18 @@
 .quotes {
   margin: auto;
-  width:70%;
+  width: 70%;
   text-align: center;
   padding: 10%;
 }
+
 .phrase {
   background-color: wheat;
   font-size: large;
-  padding: 2rem; 
+  padding: 2rem;
 }
+
 .author {
   background-color: wheat;
-  padding: .5rem;
-  font-style: italic ;
+  padding: 0.5rem;
+  font-style: italic;
 }
