@@ -1,0 +1,16 @@
+.cal-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+
+h3 {
+  background-color: wheat;
+  padding: 2rem;
+  text-align: center;
+  margin: 5%;
+}

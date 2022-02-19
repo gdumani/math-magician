@@ -1,6 +1,6 @@
 # Math Magician
 
-This is a basic calculator created with React
+This project is about a 3 page website using REACT router. The home page has a couple of fixed paragraphs, the calc page has a simple calculator and the quotes page selects a random quote out of a pool quotes.
 
 ## Screenshot
 
@@ -15,6 +15,8 @@ This is a basic calculator created with React
 - JavaScript
 - NPM
 - React
+- React router
+
 ## Requisites
 node v16.13
 npm v8.3

@@ -1,11 +1,7 @@
-.App {
-  text-align: center;
-}
-
 .calc {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  max-width: 30rem;
+  width: 20rem;
   grid-auto-rows: 3rem;
 }
 
