@@ -7,6 +7,13 @@ This project is about a 3 page website using REACT router. The home page has a c
 ![screenshot](./app_screenshot.png)
 
 
+## Live demos 
+
+### Heroku:
+[Live Demo Link](https://fast-shore-96042.herokuapp.com/)
+
+### Netlify:
+[Live Demo Link](https://6213c74d33fe964a0a6a4b56--zealous-williams-441807.netlify.app/)
 
 ## Built With
 
