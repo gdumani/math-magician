@@ -1,0 +1,26 @@
+.calc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 20rem;
+  grid-auto-rows: 3rem;
+}
+
+.calc span {
+  grid-column: 1/5;
+  text-align: right;
+  background-color: dimgray;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.double {
+  grid-column: span 2;
+}
+
+.colored {
+  background-color: orange;
+}
+
+button {
+  cursor: pointer;
+}
